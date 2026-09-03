@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: web-app-windows
         slot-name: Production
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A3A254F553C542298F9FAB9C2E56E002 }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3AB40E108AFC402C88437FA7F9A50362 }}
         package: ${{env.DOTNET_ROOT}}/myapp
 
